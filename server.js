@@ -67,6 +67,11 @@ const server = http.createServer((req, res) => {
         res.end(JSON.stringify({ message: "Habilidade inexistente na base de dados." }));
       }
 
+    } else if (url.startsWith("/empregados/porFaixaSalarial?") && method === "GET") {
+      // Listar funcionários por faixa salarial (A FINALIZAR)
+      const attributes = url.split("?")[1]
+      console.log(attributes)
+
     } else if (url === "/empregados" && method === "POST") {
       // Adiciona um funcionário novo.
       let body = "";
