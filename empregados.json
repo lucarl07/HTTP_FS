@@ -1,0 +1,20 @@
+[
+  {
+    "nome": "Carlos Wilton",
+    "idade": 18,
+    "senha": "3r3t4t3t34t",
+    "cargo": "Instrutor",
+    "cpf": "123.456.789-00",
+    "email": "carlos@example.com",
+    "telefone": "(11) 98765-4321",
+    "data_contratacao": "2022-01-10",
+    "salario": 4500,
+    "habilidades": [
+      "Front-End",
+      "Back-End",
+      "Docker",
+      "SQL"
+    ],
+    "id": 1
+  }
+]
