@@ -16,5 +16,22 @@
       "SQL"
     ],
     "id": 1
+  },
+  {
+    "nome": "Luiz Carlos Jr.",
+    "idade": 21,
+    "senha": "89thyth",
+    "cargo": "Auxiliar de T.I.",
+    "cpf": "000.000.000-00",
+    "email": "luiz@carlos.com",
+    "telefone": "(11) 98765-4321",
+    "data_contratacao": "2023-05-29",
+    "salario": 3000,
+    "habilidades": [
+      "Front-End",
+      "Back-End",
+      "Hardware"
+    ],
+    "id": 2
   }
 ]
